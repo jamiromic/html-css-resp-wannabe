@@ -144,6 +144,7 @@ img {
 
 
 
+
     .row{
         flex-direction: column;
         align-items: center;
@@ -152,16 +153,34 @@ img {
 
     .why-us{
         background-color: black;
+        margin-bottom: 0;
+        padding-top: 3em;
+    }
+
+    .steps {
         margin: 0;
     }
 
 
     .steps .col {
-        flex-basis: 100%;
-       
+        width: 100%;
     }
 
- 
+    .lessons .col{
+        width: 100%;
+    }
+
+    .why-us .col{
+        width: 100%;
+    }
+
+    .lessons{
+        margin-bottom: 3em;
+    }
+   
+
+
+    
 
    
 
